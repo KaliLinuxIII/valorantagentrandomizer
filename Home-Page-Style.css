@@ -1,0 +1,51 @@
+.randomAgentButton {
+  color: rgb(255, 255, 255);
+  background-color: rgba(156, 232, 238, 0.801);
+  height: 40px;
+  width: 200px;
+  top: 150px;
+  border-radius: 3px;
+}
+
+.randomAgentButton:hover  {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.agent-display {
+  font-size: 30px;
+}
+
+.element-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  padding-top: 10px;
+  border-radius: 4px;
+  background-color: rgba(75, 75, 92, 0.336);
+  width: 400px;
+}
+
+.agent-img-container {
+  background-color: rgba(55, 55, 63, 0.411);
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+#agentImg {
+  height: 250px;
+  width: 250px;
+}
